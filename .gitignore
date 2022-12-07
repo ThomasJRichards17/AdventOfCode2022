@@ -31,12 +31,7 @@
 *.out
 *.app
 
-# Visual Studio
-*.vcxproj.user
-
 # Folders
-Debug/
-*/Debug/
-*/x64/
-*/.vs/
 .vs/
+out/
+*/.vs/

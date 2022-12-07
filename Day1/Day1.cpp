@@ -1,4 +1,6 @@
-#include <iostream>
+#include<iostream>
+#include <sstream>
+#include <fstream>
 
 /*
     Paraphrased Description:
@@ -11,5 +13,12 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::ifstream input_file("..\\..\\..\\..\\Day1\\input.txt");
+
+    std::stringstream buffer;
+    buffer << input_file.rdbuf();
+
+    std::string calories_per_elf = buffer.str();
+
+    return 0;
 }
