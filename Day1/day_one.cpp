@@ -9,7 +9,10 @@
       - Blank line means the end of what that elf is carrying
 
     Goal:
-     - Find elf with most calories
+      - Part One
+        - Find most calories carried
+      - Part Two
+        - Find sum of top 3 calories carried 
 */
 
 int part_one()
