@@ -4,6 +4,6 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable
-add_executable (AdventofCodeDay2 "Day2.cpp")
+add_executable (AdventofCodeDay2 "day_two.cpp")
 
 target_compile_options(AdventofCodeDay2 PRIVATE /Wall)
